@@ -1,21 +1,21 @@
-import { About, Blog, Gallery, Home, Newsletter, Person, Social, Work } from "@/types";
+ import { About, Blog, Gallery, Home, Newsletter, Person, Social, Work } from "@/types";
 import { Line, Row, Text } from "@once-ui-system/core";
 
 const person: Person = {
-  firstName: "Selene",
-  lastName: "Yu",
-  name: `Selene Yu`,
-  role: "Design Engineer",
+  firstName: "Jamparapu",
+  lastName: "Tharun",
+  name: `Jamparapu Tharun`,
+  role: "Digital Marketing Executive and Web Developer ",
   avatar: "/images/avatar.jpg",
-  email: "example@gmail.com",
-  location: "Asia/Jakarta", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
-  languages: ["English", "Bahasa"], // optional: Leave the array empty if you don't want to display languages
+  email: "tharunjamparapu@gmail.com",
+  location: "Asia/Kolkata", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
+  languages: ["English","Telugu","Hindi" ], // optional: Leave the array empty if you don't want to display languages
 };
 
 const newsletter: Newsletter = {
   display: true,
   title: <>Subscribe to {person.firstName}'s Newsletter</>,
-  description: <>My weekly newsletter about creativity and engineering</>,
+  description: <>My weekly newsletter about Digital marketing and Web development </>,
 };
 
 const social: Social = [
@@ -25,31 +25,31 @@ const social: Social = [
   {
     name: "GitHub",
     icon: "github",
-    link: "https://github.com/once-ui-system",
+    link: "https://github.com/Toftharun999",
     essential: true,
   },
   {
     name: "LinkedIn",
     icon: "linkedin",
-    link: "https://www.linkedin.com/company/once-ui/",
+    link: "https://www.linkedin.com/in/jamparapu-tharun/",
     essential: true,
   },
   {
     name: "Instagram",
     icon: "instagram",
-    link: "https://www.instagram.com/once_ui/",
+    link: "https://www.instagram.com/_tha.run.07?igsh=MXRkNXQzNXpjdWMyMw==",
     essential: false,
   },
   {
     name: "Threads",
     icon: "threads",
-    link: "https://www.threads.com/@once_ui",
+    link: "https://www.threads.com/",
     essential: true,
   },
   {
     name: "Email",
     icon: "email",
-    link: `mailto:${person.email}`,
+    link: `mailto:tharunjamparapu@gmail.com${person.email}`,
     essential: true,
   },
 ];
@@ -60,12 +60,12 @@ const home: Home = {
   label: "Home",
   title: `${person.name}'s Portfolio`,
   description: `Portfolio website showcasing my work as a ${person.role}`,
-  headline: <>Building bridges between design and code</>,
+  headline: <>Building digital experiences that look good and convert better</>,
   featured: {
     display: true,
     title: (
       <Row gap="12" vertical="center">
-        <strong className="ml-4">Once UI</strong>{" "}
+        <strong className="ml-4">Urbane</strong>{" "}
         <Line background="brand-alpha-strong" vert height="20" />
         <Text marginRight="4" onBackground="brand-medium">
           Featured work
@@ -76,7 +76,7 @@ const home: Home = {
   },
   subline: (
     <>
-    I'm Selene, a design engineer at <Text as="span" size="xl" weight="strong">ONCE UI</Text>, where I craft intuitive <br /> user experiences. After hours, I build my own projects.
+    I'm Jamparapu Tharun, a Digital Marketing Executive. I help brands scale by combining creative strategy with technical precision. As a <Text as="span" size="xl" weight="strong">Urbane Outdoor Furniture</Text>, I manage end-to-end campaigns that drive real revenue,<br />  optimizing everything from ad spend to landing page performance. Unlike traditional marketers, I speak the language of developers. My technical skills in HTML, CSS, and JavaScript allow me to optimize websites for technical SEO, implement advanced tracking pixel setups, and troubleshoot conversion funnels without waiting for IT support.
 </>
   ),
 };
@@ -102,9 +102,9 @@ const about: About = {
     title: "Introduction",
     description: (
       <>
-        Selene is a Jakarta-based design engineer with a passion for transforming complex challenges
-        into simple, elegant design solutions. Her work spans digital interfaces, interactive
-        experiences, and the convergence of design and technology.
+        I am a Digital Marketing Executive and Web Developer based in Hyderabad. With a B.Sc. in Mathematics, Computer Science & Statistics and hands-on experience driving sales for e-commerce brands, I don’t just write code—I build solutions that grow businesses.
+Currently, I bridge the gap between technical development and marketing strategy. I specialize in building fast, SEO-optimized web applications using React.js and Next.js, while leveraging my expertise in Google Ads and Analytics to ensure they reach the right audience.
+My Core Stack: React.js - Next.js - Google Ads - SEO - Data Analytics.
       </>
     ),
   },
@@ -113,12 +113,12 @@ const about: About = {
     title: "Work Experience",
     experiences: [
       {
-        company: "FLY",
-        timeframe: "2022 - Present",
-        role: "Senior Design Engineer",
+        company: "Urbane",
+        timeframe: "2025 - Present",
+        role: "Web Developer and Digital Marketing Executive",
         achievements: [
           <>
-            Redesigned the UI/UX for the FLY platform, resulting in a 20% increase in user
+            designed the UI/UX for the Urbane platform, resulting in a 20% increase in user
             engagement and 30% faster load times.
           </>,
           <>
@@ -137,17 +137,18 @@ const about: About = {
         ],
       },
       {
-        company: "Creativ3",
-        timeframe: "2018 - 2022",
-        role: "Lead Designer",
+        company: "Design Heaven Interiors",
+        timeframe: "2024 - 2025",
+        role: "Lead Designer and 3D & Graphic Designer",
         achievements: [
           <>
-            Developed a design system that unified the brand across multiple platforms, improving
-            design consistency by 40%.
+            Modeling: Develop detailed 3D models of objects, characters, environments, or products from concept sketches or specifications.
           </>,
           <>
-            Led a cross-functional team to launch a new product line, contributing to a 15% increase
-            in overall company revenue.
+            Texturing & Materials: Apply realistic textures, colors, and materials to models.
+          </>,
+            <>
+              Lighting & Rendering: Set up lighting and render high-quality, photorealistic images or animations.
           </>,
         ],
         images: [],
@@ -159,12 +160,12 @@ const about: About = {
     title: "Studies",
     institutions: [
       {
-        name: "University of Jakarta",
-        description: <>Studied software engineering.</>,
+        name: "Osmania University",
+        description: <>Studied B.Sc Statistics.</>,
       },
       {
         name: "Build the Future",
-        description: <>Studied online marketing and personal branding.</>,
+        description: <>Studied online marketing, personal branding, and web development.</>,
       },
     ],
   },
@@ -173,14 +174,14 @@ const about: About = {
     title: "Technical skills",
     skills: [
       {
-        title: "Figma",
+        title: "WordPress",
         description: (
-          <>Able to prototype in Figma with Once UI with unnatural speed.</>
+          <>making sites easy for search engines to crawl and users to navigate, while SEO plugins (Yoast, Rank Math) add powerful features like meta control, sitemaps, and schema markup, improving visibility and performance for better rankings.</>
         ),
         tags: [
           {
-            name: "Figma",
-            icon: "figma",
+            name: "WordPress",
+            icon: "WordPress",
           },
         ],
         // optional: leave the array empty if you don't want to display images
@@ -202,7 +203,7 @@ const about: About = {
       {
         title: "Next.js",
         description: (
-          <>Building next gen apps with Next.js + Once UI + Supabase.</>
+          <>Building next gen apps with Next.js + Urbane + Supabase.</>
         ),
         tags: [
           {
