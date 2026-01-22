@@ -203,7 +203,7 @@ My Core Stack: React.js - Next.js - Google Ads - SEO - Data Analytics.
       {
         title: "Next.js",
         description: (
-          <>Building next gen apps with Next.js + Urbane + Supabase.</>
+          <>Building next gen apps with Next.js + JavaScript + Supabase.</>
         ),
         tags: [
           {
