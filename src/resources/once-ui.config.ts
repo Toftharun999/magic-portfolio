@@ -4,8 +4,6 @@ import {
   EffectsConfig,
   FontsConfig,
   MailchimpConfig,
-  ProtectedRoutesConfig,
-  RoutesConfig,
   SameAsConfig,
   SchemaConfig,
   SocialSharingConfig,
@@ -16,13 +14,7 @@ import { home } from "./index";
 // IMPORTANT: Replace with your own domain address - it's used for SEO in meta tags and schema
 const baseURL: string = "https://demo.magic-portfolio.com";
 
-const routes: RoutesConfig = {
-  "/": false,
-  "/about": true,
-  "/work": true,
-  "/blog": true,
-  "/gallery": true,
-};
+
 
 const display: DisplayConfig = {
   location: true,
